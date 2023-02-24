@@ -1,0 +1,57 @@
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("../images/banner_1.png");
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8rem 1rem;
+}
+
+.banner h1 {
+  font-size: 45px !important;
+}
+
+.banner input[type="text"] {
+  padding: 0.5rem 1rem !important;
+  outline: 1.5px solid white;
+}
+
+.banner input[type="submit"] {
+  margin-left: -0.8rem !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+.food-container .my-card {
+  border: 1px solid rgba(173, 173, 173, 0.578);
+  border-radius: 0.8rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.food-container img {
+  height: 16rem;
+  width: 40%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+footer {
+  background-color: #fffcf2;
+}
+
+.subscribe-form input {
+  width: 70%;
+  border: 2px solid rgba(151, 151, 151, 0.578);
+  outline: none;
+  background-color: transparent;
+}
+
+.subscribe-form button {
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  margin-left: -5px;
+}
