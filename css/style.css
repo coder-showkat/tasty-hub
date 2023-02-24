@@ -55,3 +55,9 @@ footer {
   border-top-left-radius: 0 !important;
   margin-left: -5px;
 }
+
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 35px !important;
+  }
+}
