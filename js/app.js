@@ -30,7 +30,12 @@ const displayMeal = (meals) => {
     })
     food_container.innerHTML = '';
 
-    if (card_count > meals.length) card_count = meals.length;
+    if (card_count > meals.length) {
+        card_count = meals.length;
+        showAll.classList.add('d-none');
+    } else if (card_count == meals.length) showAll.classList.add('d-none');
+    else showAll.classList.remove('d-none');
+    
     for (let i = 0; i < card_count; i++) {
         // console.log(meals[i])
         const meal = meals[i];
